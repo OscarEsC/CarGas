@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootRL"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:alpha=".25"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fL2"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="64dp"
+        android:background="?attr/colorBackgroundFloating">
+
+        <TextView
+            android:id="@+id/tView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="@android:color/background_light"
+        android:ems="8"
+        android:hint="Monto"
+        android:inputType="phone"
+        android:paddingLeft="60dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/buttonM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="sans-serif"
+        android:padding="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Aceptar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:theme="?attr/actionButtonStyle" />
+
+</RelativeLayout>

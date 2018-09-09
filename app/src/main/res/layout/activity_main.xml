@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootRL"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:alpha=".25"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="220dp"
+        android:layout_height="214dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:contentDescription="@gasimage"
+        app:srcCompat="@drawable/gas" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="@android:color/background_light"
+        android:ems="8"
+        android:hint="Monto"
+        android:inputType="phone"
+        android:paddingRight="10dp"
+        android:paddingLeft="60dp" />
+
+    <Button
+        android:id="@+id/buttonM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="sans-serif"
+        android:padding="6dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Aceptar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:theme="?attr/actionButtonStyle" />
+
+</RelativeLayout>
